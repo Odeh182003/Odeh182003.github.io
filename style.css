@@ -141,7 +141,7 @@ footer {
   font-size: 0.9rem;
   color: #4b5563;
 }
-a {
+.contact a {
   display: block;
   color: #2563eb;          /* Professional blue */
   text-decoration: none;  /* Remove underline */
@@ -154,11 +154,11 @@ a:hover {
   text-decoration: underline;
 }
 
-a:active {
+.contact a:active {
   color: #1e3a8a;
 }
 
-a:visited {
+.contact a:visited {
   color: #2563eb;
 }
 
