@@ -1,23 +1,87 @@
 body {
-  font-family: Arial, sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
   margin: 0;
   padding: 0;
   line-height: 1.6;
+  background-color: #f9fafb;
+  color: #111827;
 }
 
 header {
-  background: #1f2937;
+  background-color: #1f2937;
   color: white;
-  padding: 2rem;
+  padding: 3rem 1rem;
   text-align: center;
 }
 
-section {
-  padding: 2rem;
+.subtitle {
+  margin-top: 0.5rem;
+  color: #9ca3af;
 }
 
-a {
+.buttons {
+  margin-top: 1.5rem;
+}
+
+.buttons a {
   margin: 0 10px;
-  color: #3b82f6;
+  padding: 10px 16px;
+  background-color: #3b82f6;
+  color: white;
   text-decoration: none;
+  border-radius: 5px;
+  font-size: 14px;
+}
+
+.buttons a:hover {
+  background-color: #2563eb;
+}
+
+section {
+  max-width: 900px;
+  margin: auto;
+  padding: 2.5rem 1rem;
+}
+
+h2 {
+  border-bottom: 2px solid #e5e7eb;
+  padding-bottom: 0.5rem;
+}
+
+.project {
+  background: white;
+  padding: 1.2rem;
+  margin-top: 1.5rem;
+  border-radius: 6px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+}
+
+.project ul {
+  margin-left: 20px;
+}
+
+.tech {
+  font-size: 0.9rem;
+  color: #4b5563;
+  margin-top: 0.8rem;
+}
+
+.cv-link {
+  display: inline-block;
+  margin-top: 1.2rem;
+  color: #2563eb;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.cv-link:hover {
+  text-decoration: underline;
+}
+
+footer {
+  background-color: #1f2937;
+  color: #9ca3af;
+  text-align: center;
+  padding: 1rem;
+  margin-top: 3rem;
 }
