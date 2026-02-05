@@ -141,3 +141,23 @@ footer {
   font-size: 0.9rem;
   color: #4b5563;
 }
+a {
+  color: #2563eb;          /* Professional blue */
+  text-decoration: none;  /* Remove underline */
+  font-weight: 500;
+  transition: color 0.2s ease, text-decoration 0.2s ease;
+}
+
+a:hover {
+  color: #1e40af;          /* Darker on hover */
+  text-decoration: underline;
+}
+
+a:active {
+  color: #1e3a8a;
+}
+
+a:visited {
+  color: #2563eb;
+}
+
