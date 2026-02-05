@@ -17,6 +17,9 @@ body {
   padding: 5rem 1rem;
   text-align: center;
 }
+.about p {
+  text-algin: justify;
+}
 
 .hero-content {
   max-width: 900px;
