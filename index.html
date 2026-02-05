@@ -1,108 +1,127 @@
-
-<meta charset="UTF-8">
+<!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Leen Odeh Portfolio</title>
-        <link rel="icon" href="image/icons8-profile.png" type="image/x-icon">
-      <link rel="stylesheet" href="style.css">
-       
-    </head>
-    <body>
-        <header>
-             <h1>Leen George Odeh</h1>
-            <h3>Junior Flutter Developer & QA Engineer</h3>
-            <div class="buttons">
-    <a href="#flutter">Flutter Portfolio</a>
-    <a href="#qa">QA Portfolio</a>
-    <a href="#contact">Contact</a>
+<head>
+  <meta charset="UTF-8">
+  <title>Leen Odeh | Flutter & QA Portfolio</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- HERO -->
+<header class="hero">
+  <div class="hero-content">
+    <h1>Leen Odeh</h1>
+    <p class="tagline">Flutter Developer · QA Engineer · Computer Science Graduate</p>
+
+    <div class="hero-buttons">
+      <a href="#flutter">Flutter Work</a>
+      <a href="#qa" class="outline">QA Work</a>
+    </div>
   </div>
-        </header>
-        <section>
-            <h4>About me</h4>
-            <p>
-    Computer Science graduate with hands-on experience in building cross-platform
-    mobile applications using Flutter and Dart, and in manual software testing using
-    industry-standard QA practices. Passionate about building reliable and well-tested software.
+</header>
+
+<!-- ABOUT -->
+<section class="about">
+  <h2>About</h2>
+  <p>
+    I’m a Computer Science graduate with a strong focus on building clean,
+    user-friendly mobile applications using Flutter, and ensuring software
+    quality through structured manual testing. I care about reliability,
+    clarity, and continuous improvement.
   </p>
-        </section>
-       <section id="flutter">
-           <h2>Flutter Projects</h2>
-           <div class="project">
-    <h3>BZU Leads – Social Media Mobile Application</h3>
+</section>
+
+<!-- FLUTTER -->
+<section id="flutter">
+  <h2>Flutter Projects</h2>
+
+  <div class="card">
+    <h3>BZU Leads</h3>
+    <p class="subtitle">Social Media Mobile Application</p>
     <ul>
-      <li>Developed a cross-platform social media app using Flutter (Dart)</li>
-      <li>Integrated PHP-based REST APIs for authentication and content management</li>
-      <li>Implemented real-time messaging using Firebase</li>
-      <li>Built responsive UI with role-based access for students, academics, and admins</li>
+      <li>Developed a cross-platform Flutter app for a university social platform</li>
+      <li>Integrated REST APIs (PHP) for authentication and content management</li>
+      <li>Implemented real-time chat using Firebase</li>
+      <li>Built responsive UI with role-based access control</li>
     </ul>
-    <p class="tech">Technologies: Flutter, Dart, PHP (REST APIs), Firebase</p>
+    <span class="stack">Flutter · Dart · PHP · Firebase</span>
   </div>
 
-  <div class="project">
-    <h3>Truck Tracker – Shipment Tracking App</h3>
+  <div class="card">
+    <h3>Truck Tracker</h3>
+    <p class="subtitle">Shipment Tracking Application</p>
     <ul>
-      <li>Developed a Flutter mobile app for shipment tracking and delivery workflows</li>
-      <li>Integrated Supabase (PostgreSQL) backend for shipment data and statuses</li>
-      <li>Implemented role-based features and dynamic UI for status updates</li>
+      <li>Designed a Flutter app to track shipments and delivery status</li>
+      <li>Connected Supabase (PostgreSQL) backend for live data updates</li>
+      <li>Implemented role-based features for drivers and customers</li>
     </ul>
-    <p class="tech">Technologies: Flutter, Dart, Supabase, PostgreSQL</p>
+    <span class="stack">Flutter · Supabase · PostgreSQL</span>
   </div>
 
-  <div class="project">
-    <h3>FocusFlow – Task Management App</h3>
+  <div class="card">
+    <h3>FocusFlow</h3>
+    <p class="subtitle">Task & Productivity App</p>
     <ul>
       <li>Built and deployed a Flutter task management application</li>
-      <li>Implemented Supabase backend with full CRUD functionality</li>
-      <li>Generated and installed a production-ready APK on physical device</li>
+      <li>Implemented CRUD operations using Supabase backend</li>
+      <li>Generated and installed a production APK on Android device</li>
     </ul>
-    <p class="tech">Technologies: Flutter, Dart, Supabase, PostgreSQL</p>
+    <span class="stack">Flutter · Supabase · PostgreSQL</span>
   </div>
 
-  <a class="cv-link" href="Leen_George_Odeh_Flutter.pdf" target="_blank">
+  <a class="download" href="Leen_George_Odeh_Flutter.pdf" target="_blank">
     Download Flutter CV
   </a>
 </section>
-       <section id = "qa">
-           <h2>QA Portfolio</h2>
 
-  <p>
-    Junior QA Engineer with strong understanding of SDLC/STLC, manual testing,
-    test documentation, and Agile workflows.
+<!-- QA -->
+<section id="qa" class="alt">
+  <h2>Quality Assurance</h2>
+
+  <p class="qa-intro">
+    Alongside development, I work as a Junior QA Engineer with a strong foundation
+    in manual testing and test documentation.
   </p>
 
-  <ul>
-    <li>Functional Requirements Specification (FRS)</li>
-    <li>Test Plan</li>
-    <li>Test Cases (Positive & Negative)</li>
-    <li>Bug Reports (Jira-style)</li>
-  </ul>
+  <div class="qa-grid">
+    <div class="qa-box">Test Plans</div>
+    <div class="qa-box">Test Cases</div>
+    <div class="qa-box">Bug Reports</div>
+    <div class="qa-box">FRS & STLC</div>
+    <div class="qa-box">Postman API Testing</div>
+    <div class="qa-box">Agile / Scrum</div>
+  </div>
 
-  <p class="tech">
-    Skills: Manual Testing, Test Case Design, Bug Reporting, Agile, API Testing (Postman)
-  </p>
-
-  <a class="cv-link" href="Leen_George_Odeh_QA.pdf" target="_blank">
+  <a class="download" href="Leen_George_Odeh_QA.pdf" target="_blank">
     Download QA CV
   </a>
-       </section>
-        <section>
+</section>
+
+<!-- EDUCATION -->
+<section>
   <h2>Education</h2>
   <p>
-    <strong>Birzeit University</strong> — B.Sc. in Computer Science (2021–2025)
+    <strong>Birzeit University</strong><br>
+    B.Sc. Computer Science (2021–2025)
   </p>
-  <p>
-    Graduation Project: Full-stack social networking mobile application built with
-    Flutter, PHP, MySQL, and Firebase, featuring real-time chat and role-based administration.
+  <p class="small">
+    Graduation Project: Full-stack social networking application built with
+    Flutter, PHP, MySQL, and Firebase, including real-time chat and admin roles.
   </p>
 </section>
-        <section id = "contact">
-            <h2>contact</h2>
-            <a href="mailto:odehleen321@gmail.com">Email me</a>
-            <a href="https://github.com/Odeh182003">My Github</a>
-            <a href="https://www.linkedin.com/in/leen-odeh-a7ba75250/">My LinkedIn</a>
-        </section>
-           
+
+<!-- CONTACT -->
+<section class="contact">
+  <h2>Contact</h2>
+  <p>Email: your-email@example.com</p>
+  <p>GitHub: <a href="https://github.com/Odeh182003" target="_blank">github.com/Odeh182003</a></p>
+  <p>LinkedIn: add-your-link</p>
+</section>
+
+<footer>
+  <p>© 2026 Leen Odeh</p>
+</footer>
+
 </body>
 </html>
