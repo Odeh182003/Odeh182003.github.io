@@ -20,9 +20,7 @@ body {
 .about p {
   text-algin: justify;
 }
-p {
-  text-align: justify;
-}
+
 
 .hero-content {
   max-width: 900px;
