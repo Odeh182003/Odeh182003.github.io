@@ -173,4 +173,45 @@ p a:hover {
 .contact a:visited {
   color: #2563eb;
 }
+/* Update these sections in your style.css */
 
+body {
+  font-family: 'Inter', 'Segoe UI', sans-serif; /* A more "designer" font */
+  background: #fafafa;
+}
+
+.hero {
+  /* A more modern, subtle gradient */
+  background: linear-gradient(135deg, #0f172a, #2563eb);
+  padding: 8rem 1rem;
+}
+
+.card {
+  border: 1px solid #e5e7eb;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1); /* Lighter, cleaner shadow */
+  border-radius: 16px; /* Rounder corners look more modern */
+  overflow: hidden;
+}
+
+.stack {
+  background: #eff6ff;
+  padding: 4px 12px;
+  border-radius: 20px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  font-size: 0.75rem;
+}
+
+/* Add a hover effect to buttons to show you care about micro-interactions */
+.hero-buttons a:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 10px 15px rgba(0,0,0,0.2);
+  transition: all 0.3s ease;
+}
+  .database-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 15px;
+  margin-top: 2rem;
+} /* Add this brace! */
