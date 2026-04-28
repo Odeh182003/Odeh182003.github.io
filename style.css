@@ -107,6 +107,11 @@ h2 {
   gap: 15px;
   margin-top: 2rem;
 } 
+.qa-grid .qa-box{
+  display: grid;
+  background: #D3D3D3;
+  color: white;
+}
 
 .database-grid {
   display: grid;
