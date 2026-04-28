@@ -33,11 +33,6 @@ body {
   margin-top: 0.5rem;
 }
 
-.hero-buttons {
-  margin-top: 2rem;
-  max-width: 300px;
-}
-
 .hero-buttons a {
   padding: 12px 20px;
   border-radius: 25px;
@@ -46,16 +41,6 @@ body {
   font-weight: 500;
   background: white;
   color: #1e40af;
-}
-
-.hero-buttons a.outline {
-  display: inline-block;
-  background: transparent;
-  border: 2px solid white;
-  color: white;
-  flex: 1 1 auto;
-  max-width: 300px;
-  text-align: center;
 }
 
 /* SECTIONS */
@@ -220,3 +205,50 @@ body {
   gap: 15px;
   margin-top: 2rem;
 } /* Add this brace! */
+/* 1. Update the container to allow horizontal layout */
+.hero-buttons {
+  margin-top: 2rem;
+  margin-left: auto;  /* Centers the container */
+  margin-right: auto; /* Centers the container */
+  max-width: 800px;   /* Increased to let buttons sit side-by-side */
+  display: flex;      /* Enables Flexbox */
+  flex-wrap: wrap;    /* Allows stacking on small screens */
+  justify-content: center; /* Centers buttons horizontally */
+  gap: 15px;          /* Clean spacing between buttons */
+}
+
+/* 2. Standardize the button style */
+.hero-buttons a.outline {
+  display: inline-block;
+  padding: 12px 24px;
+  border-radius: 25px;
+  text-decoration: none;
+  font-weight: 500;
+  background: transparent;
+  border: 2px solid white;
+  color: white;
+  transition: all 0.3s ease;
+  min-width: 160px; /* Ensures buttons are a consistent size */
+  text-align: center;
+}
+
+/* 3. Add the hover effect (UI touch) */
+.hero-buttons a.outline:hover {
+  background: white;
+  color: #1e40af;
+  transform: translateY(-3px);
+  box-shadow: 0 10px 15px rgba(0,0,0,0.2);
+}
+
+/* 4. Responsive adjustment for very small screens */
+@media (max-width: 480px) {
+  .hero-buttons {
+    flex-direction: column; /* Stacks them vertically on mobile */
+    align-items: center;
+  }
+  
+  .hero-buttons a.outline {
+    width: 100%; /* Makes buttons full-width on mobile */
+    max-width: 280px;
+  }
+}
