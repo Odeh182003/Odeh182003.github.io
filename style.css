@@ -34,12 +34,11 @@ body {
 }
 
 .hero-buttons a {
-  padding: 12px 0;
+  padding: 15px 0;
   border-radius: 25px;
   text-decoration: none;
-  margin: 0 10px;
+  margin: 0 15px;
   display: inline-block;
-  flex: 1;
   font-weight: 500;
   background: white;
   color: #1e40af;
