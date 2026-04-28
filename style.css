@@ -93,7 +93,7 @@ h2 {
   color: #2563eb;
 }
 
-#database {
+.database {
   background: white;
   padding: 1.8rem;
   border-radius: 12px;
@@ -103,11 +103,11 @@ h2 {
   top-padding: 20px;
 }
 
-#database:hover {
+.database:hover {
   transform: translateY(-5px);
 }
 
-#qa {
+.qa {
   background: white;
   padding: 1.8rem;
   border-radius: 12px;
@@ -116,7 +116,7 @@ h2 {
   transition: transform 0.2s ease;
 }
 
-#qa :hover {
+.qa :hover {
   transform: translateY(-5px);
 }
 
