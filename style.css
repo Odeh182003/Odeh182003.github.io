@@ -92,11 +92,34 @@ h2 {
   font-size: 0.85rem;
   color: #2563eb;
 }
+
 #database {
-  background:white;
+  background: white;
+  padding: 1.8rem;
+  border-radius: 12px;
+  margin-bottom: 1.8rem;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.05);
+  transition: transform 0.2s ease;
   top-padding: 20px;
-  
 }
+
+#database:hover {
+  transform: translateY(-5px);
+}
+
+#qa {
+  background: white;
+  padding: 1.8rem;
+  border-radius: 12px;
+  margin-bottom: 1.8rem;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.05);
+  transition: transform 0.2s ease;
+}
+
+#qa :hover {
+  transform: translateY(-5px);
+}
+
 /* QA */
 .qa-intro {
   max-width: 600px;
