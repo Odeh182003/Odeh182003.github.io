@@ -117,6 +117,7 @@ h2 {
   background: #D3D3D3;
   color: white;
   border-radius: 25px;
+  text-align: center;
 }
 
 .database-grid {
@@ -130,6 +131,7 @@ h2 {
   background: #D3D3D3;
   color: white;
   border-radius: 25px;
+  text-align: center;
 }
 /* DOWNLOAD */
 .download {
