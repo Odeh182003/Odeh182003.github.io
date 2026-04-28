@@ -247,6 +247,8 @@ body {
   .hero-buttons {
     flex-direction: column; /* Stacks them vertically on mobile */
     align-items: center;
+    padding: 25px;
+    gap: 20px;
   }
   
   .hero-buttons a.outline {
