@@ -101,28 +101,19 @@ h2 {
   max-width: 600px;
   text-align: justify;
 }
-
-
-.qa-grid {
+ .qa-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
   gap: 15px;
   margin-top: 2rem;
-}
+} 
+
 .database-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
   gap: 15px;
   margin-top: 2rem;
-
-.qa-box {
-  background: #e5e7eb;
-  padding: 14px;
-  text-align: center;
-  border-radius: 10px;
-  font-weight: 500;
 }
-
 /* DOWNLOAD */
 .download {
   display: inline-block;
