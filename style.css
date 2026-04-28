@@ -50,9 +50,13 @@ body {
 }
 
 .hero-buttons a.outline {
+  display: inline-block;
   background: transparent;
   border: 2px solid white;
   color: white;
+  flex: 1 1 auto;
+  max-width: 300px;
+  text-align: center;
 }
 
 /* SECTIONS */
