@@ -49,6 +49,7 @@ section {
   max-width: 900px;
   margin: auto;
   padding: 3.5rem 1rem;
+  background: #D3D3D3;
 }
 
 .alt {
@@ -91,7 +92,11 @@ h2 {
   font-size: 0.85rem;
   color: #2563eb;
 }
-
+#database {
+  background:white;
+  top-padding: 20px;
+  
+}
 /* QA */
 .qa-intro {
   max-width: 600px;
@@ -111,6 +116,7 @@ h2 {
   display: grid;
   background: #D3D3D3;
   color: white;
+  border-radius: 25px;
 }
 
 .database-grid {
@@ -118,6 +124,12 @@ h2 {
   grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
   gap: 15px;
   margin-top: 2rem;
+}
+.database-grid .database-box{
+  display: grid;
+  background: #D3D3D3;
+  color: white;
+  border-radius: 25px;
 }
 /* DOWNLOAD */
 .download {
