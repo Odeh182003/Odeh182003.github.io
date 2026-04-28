@@ -34,10 +34,12 @@ body {
 }
 
 .hero-buttons a {
-  padding: 12px 20px;
+  padding: 12px 0;
   border-radius: 25px;
   text-decoration: none;
   margin: 0 10px;
+  display: inline-block;
+  flex: 1;
   font-weight: 500;
   background: white;
   color: #1e40af;
@@ -241,7 +243,7 @@ body {
 }
 
 /* 4. Responsive adjustment for very small screens */
-@media (max-width: 480px) {
+@media (max-width: 500px) {
   .hero-buttons {
     flex-direction: column; /* Stacks them vertically on mobile */
     align-items: center;
